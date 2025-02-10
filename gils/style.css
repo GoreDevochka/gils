@@ -1,0 +1,87 @@
+:root {
+    --font-family: "Montserrat", sans-serif;
+    --second-family: "Inter", sans-serif;
+    --third-family: "Archivo Black", sans-serif;
+    --font3: "?????", sans-serif;
+    --font4: "Belong Faith", sans-serif;
+    --font5: "Rubik Pixels", sans-serif;
+    --font6: "Colonna MT", sans-serif;
+  }
+*{
+    margin: 0;
+    padding: 0;
+    left: 0px;
+    top: 0px;
+  }
+  .container {
+    max-width: 1920px;
+    margin: 0 auto;
+  }
+  .body{
+    
+  }
+  .gils{
+    background-image: url(./images/РГ.png);
+    height: 994px;
+    text-align: center;
+  }
+  .logo{
+    width: 110px;
+    height: 98px;
+    margin-top: 132px;
+
+  }
+  .gils_text{
+    font-family: var(--font-family);
+    font-weight: 700;
+    font-size: 33px;
+    line-height: 134%;
+    letter-spacing: 0.01em;
+    color: #fff;
+    margin-top: 105px;
+  }
+  .gils_twot{
+    font-family: var(--second-family);
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 120%;
+    letter-spacing: 0em;
+    text-transform: lowercase;
+    color: #fff;
+    margin-top: 55px;
+  }
+  .buttons{
+    width: 498px;
+    height: 140px;
+    margin-left: 711px;
+    margin-top: 28px;
+  }
+  .gils_threet{
+    font-family: var(--second-family);
+font-weight: 700;
+font-size: 16px;
+line-height: 120%;
+letter-spacing: 0em;
+text-transform: lowercase;
+color: #fff;
+margin-top: 48px;
+  }
+  .gils_but_href{
+   padding: 18px 126px;
+   border-radius: 14px;
+
+text-decoration: none;
+font-family: var(--font-family);
+font-weight: 700;
+font-size: 20px;
+line-height: 233%;
+letter-spacing: 0.01em;
+color: #fff;
+background: rgba(23, 23, 23, 0.9);
+
+  }
+  .gils_cont{
+    width: 497px;
+    margin-top: 28px;
+    margin-left: 711px;
+  }

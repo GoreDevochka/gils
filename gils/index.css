@@ -1,0 +1,255 @@
+:root {
+    --font-family: "Montserrat", sans-serif;
+    --second-family: "Inter", sans-serif;
+    --third-family: "Archivo Black", sans-serif;
+    --font3: "?????", sans-serif;
+    --font4: "Belong Faith", sans-serif;
+    --font5: "Rubik Pixels", sans-serif;
+    --font6: "Colonna MT", sans-serif;
+  }
+*{
+  background-color: rgba(6, 6, 6, 1);
+font-family: var(--font-family);
+color: white;
+text-decoration: none;
+ display: block;
+  margin-left: auto;
+  margin-right: auto ;
+
+}
+.logo_main{
+  width: 65px;
+}
+.logo{
+  margin: 0;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+  align-items: center;
+  font-size: 20pt;
+  font-weight:700;
+  font-family: var(--font-family);
+  width: 1550px;
+  }
+  .links{
+    margin: auto;
+  }
+
+.my_account{
+  padding: 10px;
+  height: 50px;
+  width: 218px;
+  background: linear-gradient(rgba(54, 69, 140, 1),rgba(88, 32, 141, 1));
+  border-radius: 60px;
+  font-size: 20pt;
+  font-family: var(--font-family);
+  border: none;
+  margin: 0;
+}
+
+
+.main_photo{
+ margin-top: 100px;
+ position: relative;
+ width: 1550px;
+ display: block;
+    margin-left: auto;
+    margin-right: auto ;
+}
+
+
+.more{
+  position: absolute;
+  top: 90%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: #ffffff27;
+  color: white;
+  font-size: 22px;
+  padding: 12px 24px;
+  border: 3px solid white;
+  cursor: pointer;
+  border-radius: 60px;
+font-family: var(--font-family);
+}
+
+.articles{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 50px;
+  width: 1550px;
+  align-items: center;
+}
+.flow_container{
+border-radius: 15px;
+
+}
+a{
+  margin: 0;
+}
+.second_flow_container{
+border-radius: 15px;
+
+}
+
+.text{
+  display: flex;
+  justify-content: space-between;
+align-items: center;
+font-size: 20pt;
+font-weight:700;
+font-family: var(--font-family);
+width: 1500px;
+margin-top: 40px;
+margin-bottom: 40px;
+}
+.text a{
+  background: linear-gradient(rgba(54, 69, 140, 1),rgba(88, 32, 141, 1));
+  border-radius: 60px;
+  font-size: 16pt;
+  border: none;
+  width: 360px;
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-weight: 400;
+}
+
+h1{
+  margin: 0;
+}
+
+.flow_btn{
+  position: relative;
+  top: -90px;
+  background-color: #ffffff27;
+  color: white;
+  font-size: 22px;
+  padding: 12px 24px;
+  border: 3px solid white;
+  cursor: pointer;
+  border-radius: 60px;
+font-family: var(--font-family);
+}
+
+.onelink_elements{
+  display: flex;
+  max-width: 1550px;
+  justify-content: left;
+}
+.onelink_button{
+margin-right: 50px;
+}
+
+.onelink_btn{
+  position: relative;
+  top: -90px;
+  background-color: #ffffff27;
+  color: white;
+  font-size: 22px;
+  padding: 12px 24px;
+  border: 3px solid white;
+  cursor: pointer;
+  border-radius: 60px;
+font-family: var(--font-family);
+}
+
+h3{
+  color: #ffffff65;
+  font-family: var(--font-family);
+  font-weight: 400;
+  background-color: transparent;
+}
+
+.globalmix_button{
+  border-radius: 15px;
+  background-color: rgba(11, 11, 11, 1);
+  height: 446px;
+  padding: 20px;
+}
+
+.aetherland_pics_1{
+  display: flex;
+  max-width: 1550px;
+  justify-content: space-between;
+}
+
+.aetherland_pics_2{
+  display: flex;
+  max-width: 1550px;
+  justify-content: space-between;
+  margin: 0;
+}
+
+.aetherland_pics_3{
+  display: flex;
+  max-width: 1550px;
+  justify-content: space-between;
+  margin: 0;
+}
+.mini_pics{
+  display: flex;
+  max-width: 1550px;
+ justify-content: center;
+}
+.mini_pics img{
+  padding: 15px;
+}
+
+.uni_btn{
+  position: relative;
+  top: -90px;
+  background-color: rgba(158, 0, 77, 1);
+  color: white;
+  font-size: 22px;
+  padding: 12px 24px;
+  border: none;
+  cursor: pointer;
+  border-radius: 60px;
+font-family: var(--font-family);
+}
+
+.socials{
+  max-width: 1550px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 40px;
+}
+
+.social_icons{
+  display: flex;
+  justify-content: space-between;
+  margin: 0;
+}
+
+.social_icons img{
+  padding: 30px;
+}
+
+.footer_links{
+  display: flex;
+  justify-content: space-between;
+  align-items: top;
+  margin: 0;
+  max-width: 1550px;
+  margin-left: auto;
+  margin-right: auto;
+  font-weight: 200;
+  margin-bottom: 100px;
+}
+.footer_links a{
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+.root{
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  justify-content: space-between;
+  max-width: 600px;
+  font-size: x-small;
+}

@@ -8,7 +8,6 @@
     --font6: "Colonna MT", sans-serif;
   }
 *{
-   
     margin: 0;
     padding: 0;
     left: 0px;
@@ -18,12 +17,11 @@
     max-width: 1920px;
     margin: 0 auto;
   }
+
+  /* регистрация */
   
   .gils{
     background-image: url(./images/РГ.png);
-    background-size: no-repeat;
-    background-position: center;
-    background-size: cover;
     height: 994px;
     text-align: center;
   }
@@ -88,79 +86,135 @@ background: rgba(23, 23, 23, 0.9);
     margin-left: 711px;
   }
 
-  .hidden {
-    display: none;
-  }
-  .modal {
-    display: inline-block;
-    background-color: rgba(25, 23, 28, 1);
-    width: 650px;
-    height: 850px;
-    border-radius: 10px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
-    padding: 30px;
+ /* авторизация */
+
+  .auth{
+    background-image: url(./images/auth.png);
+    height: 994px;
     text-align: center;
+  
+  }
+  .dop{
+    padding-top: 66px;
+  }
+  .auth_form{
+    border-radius: 30px;  
+    width: 657px;
+    height: 852px;
+    background: #19171c;
+    margin-left: 649px;
+   
+  }
+  .auth_form_logo{
+    width: 97px;
+    height: 89px;
+    margin-top: 34px;
+  }
+  .auth_form_f{
+    width: 495px;
+    margin-left: 84px;
+    margin-top: 41px;
+  }
+  .auth_form_text{
+    font-family: var(--font-family);
+    font-weight: 800;
+    font-size: 32px;
+    line-height: 138%;
+    letter-spacing: 0.01em;
+    color: #fff;
+    margin-top: 14px;
+  }
+  .auth_form_input{
+    border-radius: 15px;
+    width: 480px;
+    height: 65px;
+    font-family: var(--second-family);
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 221%;
+    letter-spacing: 0.01em;
+    color: #d9d9d9;
+    background: rgba(84, 84, 84, 0.24);
+    margin-bottom: 26px;
+    padding-left: 10px;
+  }
+  .auth_form_btn{
+    border-radius: 15px;
+    padding: 10px;
+    width: 495px;
+    height: 65px;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25), 4px 4px 4px 0 rgba(0, 0, 0, 0.25);
+    background: linear-gradient(164deg, #5072bb 0%, #4f1989 100%);
+    font-family: var(--font-family);
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 185%;
+     letter-spacing: 0.01em;
+      color: #fff;
+  } 
+  .lines{
+    display: flex;
+    width: 495px;
+    margin-top: 50px;
+    margin-left: 84px;
+  }
+  .lines_one{
+    border: 1px solid #fff;
+    width: 202px;
+    height: 0px;
+    margin-top: 8px;
+
+  }
+  .lines_text{
+    font-family: var(--second-family);
+font-weight: 700;
+font-size: 16px;
+line-height: 120%;
+letter-spacing: 0em;
+text-transform: lowercase;
+color: #fff;
+margin-right: 30px;
+margin-left: 30px;
+  }
+  .auth_buttons{
+    width: 535px;
+    margin-left: 70px;
+  }
+  .auth_text_info{
+    font-family: var(--second-family);
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 120%;
+  letter-spacing: 0em;
+  text-transform: lowercase;
+  color: #fff;
+  margin-top: 26px;
+  margin-bottom: 26px;
+  }
+  .auth_form_link{
     text-decoration: none;
     font-family: var(--font-family);
-font-weight: 700;
-font-size: 20px;
-line-height: 233%;
+    font-weight: lighter;
+font-size: 16px;
+line-height: 277%;
 letter-spacing: 0.01em;
 color: #fff;
+margin-top: 34px;
   }
-  
- 
-  
-  .title {
-    font-size: 24px;
-    margin-bottom: 20px;
+  .auth_buttons_img{
+    margin-right:12px ;
+    margin-bottom: 10px;
+    opacity: 0.9;
   }
-  
-  .input-group {
-    margin-bottom: 20px;
-    width: 100%;
-  }
-  
-  .input-group input {
-    width: calc(100% - 20px);
-    padding: 10px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-    box-sizing: border-box;
-    background-color: rgba(84, 84, 84, 0.24);
-  }
-  
-  .button{
-    background: linear-gradient(rgba(80, 114, 187, 1), rgba(79, 25, 137, 1));
-    border: none;
-    color: white;
-    padding: 15px 32px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
+  .dop_text{
+    font-weight: bold;
+    font-family: var(--font-family);
     font-size: 16px;
-    margin: 4px 2px;
-    cursor: pointer;
-    border-radius: 5px;
+    line-height: 277%;
+    letter-spacing: 0.01em;
+    color: #fff;
   }
-  
-  .or {
-    margin: 30px 0;
-  }
-  
-  .social-buttons {
-    display: flex;
-    justify-content: center; 
-    gap: 15px;
-  }
-  
-  .social-button {
-      padding: 10px;
-      border-radius: 5px;
-      border: none;
-  }
-  
-  .social-button:hover {
-      opacity: 0.8;
-  }
+
+
+
   

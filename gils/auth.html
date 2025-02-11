@@ -6,63 +6,40 @@
     <title>Document</title>
     <link rel="stylesheet" href="./style.css">
 </head>
-<body class="body">
+<body>
     <div class="container">
-        <div class="gils">
-            <a href="index.html"><img class="logo" src="./images/Subtract.png" alt=""></a>
-            <p class="gils_text">Это не просто музыка - это GILS</p>
-            <p class="gils_twot">Войти с помощью</p>
-            <div class="buttons">
-                <img src="./images/Group 1.png" alt="">
-                <img src="./images/Group 2.png" alt="">
-                <img src="./images/Group 3.png" alt="">
-                <img src="./images/Group 4.png" alt="">
-                <img src="./images/Group 5.png" alt="">
-                <img src="./images/Group 6.png" alt="">
-            </div>
-            <p class="gils_threet">ИЛИ</p>
-            <div class="gils_cont">
-            <a class="gils_but_href" href="#">Создать новый аккаунт</a>
-            </div>
-            <div class="gils_cont">
-                <button id="open-modal">Войти в аккаунт</button>
-            </div>
-
-            <div id="modal" class="modal_hidden">
-            <div class="modal">
-                <img src="./images/Subtract.png" alt="Логотип" class="logo">  <!-- Замените logo.png на путь к вашему логотипу -->
-                <h2 class="title">Авторизация</h2>
-                <div class="input-group">
-                  <input type="text" placeholder="Email или номер телефона">
+        <div class="auth">
+            <div class="dop">
+                <div class="auth_form">
+                    <img class="auth_form_logo" src="./images/Subtract.png" alt="">
+                    <h1 class="auth_form_text">Авторизация</h1>
+                    <form class="auth_form_f" action="#">
+                        <input class="auth_form_input" type="text" placeholder="Email или номер телефона" name="login">
+                        <input class="auth_form_input" type="password" placeholder="Пароль" name="email">
+                        <button type="submit"  class="auth_form_btn">Войти</button>
+                    </form>
+                    <div class="lines">
+                        <hr class="lines_one">
+                        <p class="lines_text">или</p>
+                        <hr class="lines_one">
+                    </div>
+                    <p class="auth_text_info">Войти с помощью</p>
+                    <div class="auth_buttons">
+                        <img class="auth_buttons_img" src="./images/Group 1.png" alt="">
+                        <img class="auth_buttons_img"  src="./images/Group 2.png" alt="">
+                        <img class="auth_buttons_img"  src="./images/Group 3.png" alt="">
+                        <img class="auth_buttons_img"  src="./images/Group 4.png" alt="">
+                        <img class="auth_buttons_img"  src="./images/Group 5.png" alt="">
+                        <img class="auth_buttons_img"  src="./images/Group 6.png" alt="">
+                    </div>
+                    <a class="auth_form_link" href="./reg.html">Еще нет аккаунта? <span class="dop_text">Зарегистрироваться</span></a>
                 </div>
-                <div class="input-group">
-                  <input type="password" placeholder="Пароль">
-                </div>
-                <button class="button">Войти</button>
-                <div class="or">ИЛИ</div>
-                <div class="social-buttons">
-                  <button class="social-button" style="background-color: #3b5998;">Войти через Facebook</button>
-                  <button class="social-button" style="background-color: #dd4b39;">Войти через Google</button>
-             
-                </div>
-              </div>
             </div>
-
-              <script>
-                const openModalButton = document.getElementById('open-modal');
-                const modal = document.getElementById('modal');
-              
-                openModalButton.addEventListener('click', () => {
-                  modal.classList.remove('hidden');
-                });
-              
-                modal.addEventListener('click', (event) => {
-                  if (event.target === modal) {
-                      modal.classList.add('hidden');
-                  }
-                });
-              </script>
         </div>
     </div>
 </body>
 </html>
+
+
+
+

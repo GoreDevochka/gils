@@ -25,10 +25,43 @@
             <a class="gils_but_href" href="#">Создать новый аккаунт</a>
             </div>
             <div class="gils_cont">
-                <a class="gils_but_href" href="#">Создать новый аккаунт</a>
+                <button id="open-modal">Войти в аккаунт</button>
             </div>
-            
 
+            <div id="modal" class="modal_hidden">
+            <div class="modal">
+                <img src="./images/Subtract.png" alt="Логотип" class="logo">  <!-- Замените logo.png на путь к вашему логотипу -->
+                <h2 class="title">Авторизация</h2>
+                <div class="input-group">
+                  <input type="text" placeholder="Email или номер телефона">
+                </div>
+                <div class="input-group">
+                  <input type="password" placeholder="Пароль">
+                </div>
+                <button class="button">Войти</button>
+                <div class="or">ИЛИ</div>
+                <div class="social-buttons">
+                  <button class="social-button" style="background-color: #3b5998;">Войти через Facebook</button>
+                  <button class="social-button" style="background-color: #dd4b39;">Войти через Google</button>
+             
+                </div>
+              </div>
+            </div>
+
+              <script>
+                const openModalButton = document.getElementById('open-modal');
+                const modal = document.getElementById('modal');
+              
+                openModalButton.addEventListener('click', () => {
+                  modal.classList.remove('hidden');
+                });
+              
+                modal.addEventListener('click', (event) => {
+                  if (event.target === modal) {
+                      modal.classList.add('hidden');
+                  }
+                });
+              </script>
         </div>
     </div>
 </body>

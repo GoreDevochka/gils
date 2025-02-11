@@ -8,6 +8,7 @@
     --font6: "Colonna MT", sans-serif;
   }
 *{
+   
     margin: 0;
     padding: 0;
     left: 0px;
@@ -17,11 +18,12 @@
     max-width: 1920px;
     margin: 0 auto;
   }
-  .body{
-    
-  }
+  
   .gils{
     background-image: url(./images/РГ.png);
+    background-size: no-repeat;
+    background-position: center;
+    background-size: cover;
     height: 994px;
     text-align: center;
   }
@@ -85,3 +87,80 @@ background: rgba(23, 23, 23, 0.9);
     margin-top: 28px;
     margin-left: 711px;
   }
+
+  .hidden {
+    display: none;
+  }
+  .modal {
+    display: inline-block;
+    background-color: rgba(25, 23, 28, 1);
+    width: 650px;
+    height: 850px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    padding: 30px;
+    text-align: center;
+    text-decoration: none;
+    font-family: var(--font-family);
+font-weight: 700;
+font-size: 20px;
+line-height: 233%;
+letter-spacing: 0.01em;
+color: #fff;
+  }
+  
+ 
+  
+  .title {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .input-group {
+    margin-bottom: 20px;
+    width: 100%;
+  }
+  
+  .input-group input {
+    width: calc(100% - 20px);
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    background-color: rgba(84, 84, 84, 0.24);
+  }
+  
+  .button{
+    background: linear-gradient(rgba(80, 114, 187, 1), rgba(79, 25, 137, 1));
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  .or {
+    margin: 30px 0;
+  }
+  
+  .social-buttons {
+    display: flex;
+    justify-content: center; 
+    gap: 15px;
+  }
+  
+  .social-button {
+      padding: 10px;
+      border-radius: 5px;
+      border: none;
+  }
+  
+  .social-button:hover {
+      opacity: 0.8;
+  }
+  

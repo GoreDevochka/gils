@@ -215,6 +215,172 @@ margin-top: 34px;
     color: #fff;
   }
 
+/* winter */
 
-
+  .winter{
+    height: 4492px;
+    background: linear-gradient(137deg, #b2cbe8 57%, #bae2ec 100%);
+  }
+  .menu-top{
+    display: flex;
+    padding-top: 63px;
+    margin-left: 121px;
+  }
+  .menu-item{
+    list-style: none;
   
+  }
+  .link{
+    text-decoration: none;
+    font-family: var(--second-family);
+font-weight: 800;
+font-size: 20px;
+line-height: 149%;
+letter-spacing: 0.01em;
+color: #4d79a3;
+margin-right: 76px;
+margin-top: 30px;
+
+
+  }
+  .butt{
+    border-radius: 61px;
+    padding: 10px 35px ;
+background: #4d79a3;
+transform: rotate(90deg);
+text-decoration: none;
+font-family: var(--font-family);
+font-weight: 800;
+font-size: 20px;
+line-height: 149%;
+letter-spacing: 0.01em;
+color: #fff;
+margin-left: 190px;
+margin-top: 10px;
+
+  }
+  .winter_logo{
+ margin-right: 294px;
+
+  }
+  .winter_first{
+    height: 1080px;
+    background-image: url(./images/mountains-1920x1080-snow-26108\ 1.png);
+  }
+  .winter_first_text{
+    width: 1314px;
+    height: 156px;
+    padding-top: 731px;
+    margin-left: 286px;
+  }
+  .winter_first_text_zag{
+    font-family: var(--font-family);
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 122%;
+    letter-spacing: 0em;
+    color: #405767;
+  }
+  .winter_first_text_date{
+    font-family: var(--font-family);
+font-weight: 300;
+font-size: 22px;
+line-height: 149%;
+letter-spacing: 0.01em;
+color: #405767;
+  }
+  .winter_first_text_dop{
+    font-family: var(--second-family);
+font-weight: 500;
+font-size: 22px;
+line-height: 149%;
+letter-spacing: 0.01em;
+color: #405767;
+margin-top: 60px;
+  }
+  .winter_slider{
+    width: 905px;
+    margin-top: 100px;
+  }
+  .winter_two{
+    margin-left: 286px;
+    margin-top: 80px;
+    width: 1348px;
+height: 146px;
+  }
+  .winter_two_h{
+    font-family: var(--font-family);
+font-weight: 700;
+font-size: 32px;
+line-height: 244%;
+letter-spacing: 0em;
+color: #405767;
+  }
+  .winter_two_p{
+    font-family: var(--second-family);
+font-weight: 500;
+font-size: 22px;
+line-height: 149%;
+letter-spacing: 0.01em;
+color: #405767;
+  }
+  .winter_three{
+    margin-top: 100px;
+    margin-left: 286px;
+    width: 1348px;
+
+  }
+  .winter_three_h{
+    font-family: var(--font-family);
+font-weight: 700;
+font-size: 32px;
+line-height: 244%;
+letter-spacing: 0em;
+color: #405767;
+  }
+  .winter_three_p{
+    font-family: var(--second-family);
+font-weight: 500;
+font-size: 22px;
+line-height: 149%;
+letter-spacing: 0.01em;
+color: #405767;
+  }
+  .winter_fo{
+    width: 1348px;
+    margin-left: 286px;
+    margin-top: 100px;
+  }
+  .winter_fo_h{
+    font-family: var(--font-family);
+font-weight: 700;
+font-size: 32px;
+line-height: 244%;
+letter-spacing: 0em;
+color: #405767;
+  }
+  .winter_fo_p{
+    font-family: var(--second-family);
+font-weight: 500;
+font-size: 22px;
+line-height: 149%;
+letter-spacing: 0.01em;
+color: #405767;
+  }
+  .winter_five{
+    width: 989px;
+    height: 273px;
+    text-align: center;
+    margin-top: 247px;
+    margin-left: 466px;
+  }
+  .winter_five_text{
+    font-family: var(--font-family);
+font-weight: 700;
+font-size: 40px;
+line-height: 162%;
+letter-spacing: 0em;
+text-align: center;
+color: #405767;
+margin-top: 40px;
+  }

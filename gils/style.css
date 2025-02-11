@@ -18,13 +18,21 @@
     margin: 0 auto;
   }
 
-  /* регистрация */
-  
-  .gils{
+  /* трансфер */
+  .gils {
     background-image: url(./images/РГ.png);
-    height: 994px;
+    background-size: cover; /* Cover the entire element */
+    background-attachment: fixed; /* Fix the background image */
+    background-position: center; /* Center the background image */
+    position: fixed; /* Fix the position */
+    top: 0; /* Align to the top */
+    left: 0; /* Align to the left */
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
     text-align: center;
-  }
+    z-index: -1; /* Ensure it stays behind other content */
+}
+ 
   .logo{
     width: 110px;
     height: 98px;
@@ -90,20 +98,25 @@ background: rgba(23, 23, 23, 0.9);
 
   .auth{
     background-image: url(./images/auth.png);
-    height: 994px;
+    
     text-align: center;
-  
+    background-size: cover; /* Cover the entire element */
+    background-attachment: fixed; /* Fix the background image */
+    background-position: center; /* Center the background image */
+    background-position: fixed;
   }
   .dop{
     padding-top: 66px;
+    
   }
-  .auth_form{
-    border-radius: 30px;  
-    width: 657px;
-    height: 852px;
-    background: #19171c;
-    margin-left: 649px;
-   
+ 
+    .auth_form {
+      border-radius: 30px;  
+      width: 657px;
+      min-height: 852px; /* Установите минимальную высоту, если это нужно */
+      background: #19171c;
+      margin-left: 649px;
+      padding: 20px; /* Добавьте отступы, если необходимо */
   }
   .auth_form_logo{
     width: 97px;

@@ -1,0 +1,165 @@
+:root {
+    --font-family: "Montserrat", sans-serif;
+    --second-family: "Inter", sans-serif;
+    --third-family: "Archivo Black", sans-serif;
+    --font3: "?????", sans-serif;
+    --font4: "Belong Faith", sans-serif;
+    --font5: "Rubik Pixels", sans-serif;
+    --font6: "Colonna MT", sans-serif;
+  }
+*{
+    margin: 0;
+    padding: 0;
+    left: 0px;
+    top: 0px;
+   
+  }
+  .container {
+    max-width: 1920px;
+  }
+  .ethernium{
+    
+    background: linear-gradient(154deg, #938672 0%, #423b2e 74.53%);
+  }
+  .menu-top{
+    display: flex;
+    padding-top: 53px;
+    margin-left: 121px;
+  }
+  .menu-item{
+    list-style: none;
+    margin-top: 13px;
+  }
+  .menu-items{
+    list-style: none;
+  }
+  .link{
+    text-decoration: none;
+    font-family: var(--second-family);
+font-weight: 800;
+font-size: 20px;
+line-height: 149%;
+letter-spacing: 0.01em;
+color: #fff;
+margin-right: 76px;
+padding-top: 100px;
+
+
+  }
+  .butt{
+    border-radius: 61px;
+    padding: 10px 35px ;
+    background: linear-gradient(180deg, #675e4f 0%, #39342c 100%);
+    transform: rotate(90deg);   
+text-decoration: none;
+font-family: var(--font-family);
+font-weight: 800;
+font-size: 20px;
+line-height: 149%;
+letter-spacing: 0.01em;
+color: #fff;
+margin-left: 190px;
+margin-top: 10px;
+
+  }
+  .logo{
+ margin-right: 294px;
+ width: 72px;
+height: 65px;
+
+  }
+  .eth_first{
+    width: 1520px;
+    margin-top: 160px;
+    padding-left: 200px;  
+
+  }
+  .eth_first h1{
+    font-family: var(--font-family);
+font-weight: 800;
+font-size: 64px;
+line-height: 125%;
+letter-spacing: 0em;
+color: #fff;
+  }
+  .eth_first p{
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 78%;
+    color: #fff;
+    margin-top: 40px;
+    margin-bottom: 60px;
+  }
+  .eth_first_text{
+    font-family: var(--second-family);
+font-weight: 400;
+font-size: 24px;
+line-height: 150%;
+color: #fff;
+margin-top: 46px;
+  }
+  .eth_two{
+    max-width: 1520px;
+    margin-left: 200px;
+    margin-top: 100px;
+  }
+  .eth_two h2{
+    font-family: var(--font-family);
+font-weight: 700;
+font-size: 48px;
+line-height: 104%;
+text-align: justify;
+color: #fff;
+  }
+  .eth_two p{
+    font-family: var(--second-family);
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 150%;
+    color: #fff;
+    margin-top: 35px;
+  }
+  .eth_three{
+    max-width: 1520px;
+    margin-top: 100px;
+    margin-left: 200px;
+  }
+  .eth_three h2{
+    font-family: var(--font-family);
+font-weight: 700;
+font-size: 48px;
+line-height: 78%;
+color: #fff;
+  }
+  .eth_three p{
+    font-family: var(--second-family);
+font-weight: 400;
+font-size: 24px;
+line-height: 150%;
+color: #fff;
+margin-top: 35px;
+  }
+  .eth_fo{
+    max-width: 1520px;
+    margin-top: 125px;
+    margin-left: 200px;
+    
+  }
+  .eth_fo h2{
+    font-family: var(--font-family);
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 78%;
+    text-align: justify;
+    color: #fff;
+
+  }
+  .eth_fo p{
+    font-family: var(--second-family);
+font-weight: 400;
+font-size: 24px;
+line-height: 150%;
+color: #fff;
+margin-top: 35px;
+  }

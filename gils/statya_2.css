@@ -15,6 +15,7 @@ text-decoration: none;
 display: block;
 margin-left: auto;
 margin-right: auto; 
+
 }
 
 
@@ -62,12 +63,14 @@ margin-right: auto;
   }
   
   .wrapper {
-    max-width: 1650px;
+    max-width: 1700px;
     margin: 0 auto;
+   
   }
   
   .slider {
     position: relative;
+    
   }
   
   .slider .slider__item {
@@ -94,7 +97,7 @@ margin-right: auto;
   } 
   
   .slider .slick-arrow {
-    position: absolute;
+
     cursor: pointer;
     font-size: large;
     background-color: transparent;
@@ -104,14 +107,14 @@ margin-right: auto;
     text-align: center;
     align-items: center;
     padding: 10px;
-    bottom: -50px;
-    
+    z-index: 10;
   }
   
   .slider .slick-prev {
     right: 50px;
     transform: rotate(180deg);
-  
+  position: relative;
+  top: 727px;
   }
   
   .slider .slick-next {
@@ -120,11 +123,10 @@ margin-right: auto;
   }
   
   .slider .slider__counter {
-    position: absolute;
+    
     color: #fff;
     font-size: 20px;
-    bottom: -45px;
-    right: 100px;
+    
   }
   
   .slider_btn{
@@ -215,18 +217,37 @@ h3{
 
 .main_text{
     max-width: 80%;
-    
+    margin-bottom: 40px;
 }
 .text2{
     max-width: 80%;
+    margin-bottom: 40px;
 }
 .text3{
     max-width: 80%;
+    margin-bottom: 40px;
 }
 .text4{
     max-width: 80%;
+    margin-bottom: 40px;
 }
 
 .welcome_pic{
     margin-top: 300px;
+}
+.container2 {
+  justify-content: center;
+  margin-top: 160px;
+  max-width: 1650px;
+  
+}
+
+.zagol2 {
+  font-size: 38px;
+  padding-bottom: 30px;
+}
+.blogi {
+  display: flex;
+  max-width: 1650px;
+  margin-bottom: 250px;
 }

@@ -321,3 +321,16 @@ font-family: var(--font-family);
   bottom: -45px;
   right: 100px;
 }
+
+.slider_btn{
+  position: relative;
+  top: -120px;
+  background-color: transparent;
+  color: white;
+  font-size: 22pt;
+  padding: 12px 24px;
+  border: 3px solid white;
+  cursor: pointer;
+  border-radius: 60px;
+font-family: var(--font-family);
+}

@@ -264,7 +264,7 @@ font-family: var(--font-family);
   position: relative;
 }
 
-.slider .slider_item {
+.slider .slider__item {
   display: block;
   opacity: 0.4;
   text-align: center;
@@ -272,11 +272,11 @@ font-family: var(--font-family);
   margin: 0 15px;
 }
 
-.slider .slider_item img {
+.slider .slider__item img {
   border: 3px solid #fff;
 }
 
-.slider .slider_item .slick-center {
+.slider .slider__item .slick-center {
   opacity: 1;
 } 
 

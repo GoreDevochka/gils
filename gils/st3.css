@@ -1,0 +1,167 @@
+:root {
+    --font-family: "Montserrat", sans-serif;
+    --second-family: "Inter", sans-serif;
+    --third-family: "Archivo Black", sans-serif;
+    --font3: "?????", sans-serif;
+    --font4: "Belong Faith", sans-serif;
+    --font5: "Rubik Pixels", sans-serif;
+    --font6: "Colonna MT", sans-serif;
+  }
+*{
+    
+font-family: var(--font-family);
+color: white;
+text-decoration: none;
+ display: block;
+  margin-left: auto;
+  margin-right: auto ;
+
+}
+
+body {
+    background: linear-gradient(to bottom, #19171C, #29247A);
+    background-repeat: no-repeat;
+}
+
+
+.logo_main{
+  width: 65px;
+}
+.logo{
+  margin: 0;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+  align-items: center;
+  font-size: 20pt;
+  font-weight:700;
+  font-family: var(--font-family);
+  width: 1550px;
+  }
+  .links{
+    margin: auto;
+  }
+
+.my_account{
+  padding: 10px;
+  height: 50px;
+  width: 218px;
+  background: linear-gradient(rgba(54, 69, 140, 1),rgba(88, 32, 141, 1));
+  border-radius: 60px;
+  font-size: 20pt;
+  font-family: var(--font-family);
+  border: none;
+  margin: 0;
+}
+
+.container {
+    justify-content: center;
+    margin-top: 160px;
+    max-width: 1650px;
+    margin-bottom: 100px;
+    
+}
+
+.zagolovok {
+    font-size: 40px;
+    
+}
+
+.text1 {
+    font-size: 36px;
+    margin-bottom: 36px;
+}
+
+.data {
+    font-size: 30px;
+}
+
+.container2 {
+    justify-content: center;
+    margin-top: 160px;
+    max-width: 1650px;
+    
+}
+
+.zagol2 {
+    font-size: 38px;
+    padding-bottom: 30px;
+}
+
+.text2 {
+    font-size: 24px;
+}
+
+p {
+    padding-bottom: 15px;
+}
+
+.photo2 {
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.blogi {
+    display: flex;
+    max-width: 1650px;
+    margin-bottom: 250px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.socials{
+    max-width: 1550px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 40px;
+  }
+  
+  .social_icons{
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+  }
+  
+  .social_icons img{
+    padding: 30px;
+  }
+  
+  .footer_links{
+    display: flex;
+    justify-content: space-between;
+    align-items: top;
+    margin: 0;
+    max-width: 1550px;
+    margin-left: auto;
+    margin-right: auto;
+    font-weight: 200;
+    margin-bottom: 100px;
+  }
+  .footer_links a{
+    padding-top: 15px;
+    padding-bottom: 15px;
+  }
+  
+  .root{
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: space-between;
+    max-width: 600px;
+    font-size: x-small;
+  }

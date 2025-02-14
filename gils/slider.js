@@ -23,7 +23,7 @@ $(".slider").on("afterChange", function (event, slick, currentSlide) {
       slidesToScroll: 1,
       infinite: true,
       centerMode: true,
-      centerPadding: "50px",
+      centerPadding: "100px",
     });
     $(".slick-prev").text("❯");
     $(".slick-next").text("❯");    

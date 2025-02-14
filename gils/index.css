@@ -23,6 +23,18 @@ text-decoration: none;
 .logo{
   margin: 0;
 }
+.menu-top{
+  display: flex;
+  padding-top: 53px;
+  margin-left: 121px;
+}
+.menu-item{
+  list-style: none;
+  margin-top: 13px;
+}
+.menu-items{
+  list-style: none;
+}
 header{
     display: flex;
     justify-content: space-between;

@@ -133,8 +133,8 @@ width: 1540px;
 margin-top: 40px;
 margin-bottom: 40px;
 }
-.text a{
-  background: linear-gradient(rgba(54, 69, 140, 1),rgba(88, 32, 141, 1));
+.text_b{
+  background: linear-gradient(180deg, #080050 0%, #0d00c1 100%);
   border-radius: 60px;
   font-size: 16pt;
   border: none;
@@ -149,7 +149,42 @@ margin-bottom: 40px;
   letter-spacing: 0.01em;
   color: #fff;
 }
-
+.text_butt{
+  background: linear-gradient(180deg, #00503d 0%, #00c18b 100%);
+  border-radius: 60px;
+  font-size: 16pt;
+  border: none;
+  width: 360px;
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  text-decoration: none;
+  font-family: var(--font-family);
+  font-weight: 700;
+  line-height: 149%;
+  letter-spacing: 0.01em;
+  color: #fff;
+}
+.text_buttt{
+  
+  border-radius: 60px;
+  font-size: 16pt;
+  border: none;
+  width: 360px;
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  text-decoration: none;
+  font-family: var(--font-family);
+  font-weight: 700;
+  line-height: 149%;
+  letter-spacing: 0.01em;
+  color: #fff;
+}
+.stelka{
+  stroke-width: 2.67px;
+stroke: #fff;
+}
 .text_store{
   display: flex;
   justify-content: center;
@@ -162,6 +197,18 @@ margin-bottom: 40px;
 h1{
   margin: 0;
 }
+.img_slider{
+  position: absolute;
+  top: 3610px;
+  z-index: 1;
+}
+.img_sliders{
+  position: absolute;
+  top: 3610px;
+  z-index: 1;
+  left: 1600px;
+}
+
 
 .flow_btn{
   position: relative;
@@ -181,9 +228,7 @@ font-family: var(--font-family);
   max-width: 1550px;
   justify-content: left;
 }
-.onelink_button{
-margin-right: 50px;
-}
+
 
 .onelink_btn{
   position: relative;
@@ -206,10 +251,8 @@ h3{
 }
 
 .globalmix_button{
-  border-radius: 15px;
   background-color: rgba(11, 11, 11, 1);
-  height: 446px;
-  padding: 20px;
+
 }
 
 .global_text h3{
@@ -284,7 +327,9 @@ font-family: var(--font-family);
   justify-content: space-between;
   margin: 0;
 }
-
+.text_box{
+  display: flex;
+}
 .social_icons img{
   padding: 30px;
 }
@@ -375,13 +420,6 @@ font-family: var(--font-family);
   bottom: -140px;
 }
 
-.slider .slider__counter {
-  position: absolute;
-  color: #fff;
-  font-size: 20px;
-  bottom: -45px;
-  right: 100px;
-}
 
 .slider_btn{
   position: relative;

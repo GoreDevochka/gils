@@ -1,0 +1,275 @@
+:root {
+    --font-family: "Montserrat", sans-serif;
+    --second-family: "Inter", sans-serif;
+    --third-family: "Archivo Black", sans-serif;
+    --font3: "?????", sans-serif;
+    --font4: "Belong Faith", sans-serif;
+    --font5: "Rubik Pixels", sans-serif;
+    --font6: "Colonna MT", sans-serif;
+  }
+*{
+    margin: 0;
+    padding: 0;
+    left: 0px;
+    top: 0px;
+   
+  }
+  .container {
+    max-width: 1920px;
+  }
+  .st4{
+    
+    background: linear-gradient(180deg, #c5bc9f 0%, #414535 74.5%);
+  }
+  .menu-top{
+    display: flex;
+    padding-top: 53px;
+    margin-left: 121px;
+  }
+  .menu-item{
+    list-style: none;
+    margin-top: 13px;
+  }
+  .menu-items{
+    list-style: none;
+  }
+  .link{
+    text-decoration: none;
+    font-family: var(--second-family);
+font-weight: 800;
+font-size: 20px;
+line-height: 149%;
+letter-spacing: 0.01em;
+color: #fff;
+margin-right: 76px;
+padding-top: 100px;
+
+
+  }
+  .butt{
+    border-radius: 61px;
+    padding: 10px 35px ;
+    background: linear-gradient(180deg, #675e4f 0%, #39342c 100%);
+    transform: rotate(90deg);   
+text-decoration: none;
+font-family: var(--font-family);
+font-weight: 800;
+font-size: 20px;
+line-height: 149%;
+letter-spacing: 0.01em;
+color: #fff;
+margin-left: 160px;
+margin-top: 10px;
+
+  }
+  .logo{
+ margin-right: 294px;
+ width: 72px;
+height: 65px;
+
+  }
+  .st4_blok {
+    margin-left: 200px;
+    margin-top: 100px;
+  }
+  .st4_blok h1{
+    font-family: var(--font-family);
+font-weight: 800;
+font-size: 64px;
+line-height: 125%;
+letter-spacing: 0em;
+color: #fff;
+  }
+  .st4_blok p{
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 78%;
+    color: #fff;
+    margin-top: 40px;
+    margin-bottom: 100px;
+  }
+  .st4_blok pre{
+    font-family: var(--second-family);
+font-weight: 400;
+font-size: 24px;
+line-height: 150%;
+color: #fff;
+margin-top: 85px;
+margin-bottom: 50px;
+  }
+  .st4_blok span{
+    font-family: var(--second-family);
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 150%;
+    color: #fff;
+
+  }
+.blok_two{
+text-align: center;
+margin-top: 150px;
+}
+.blok_two p{
+font-family: var(--font-family);
+font-weight: 700;
+font-size: 40px;
+line-height: 162%;
+letter-spacing: 0em;
+text-align: center;
+color: #fff;
+width: 1222px;
+margin-left: 310px;
+margin-top: 50px;
+}
+.blok_three p{
+font-family: var(--second-family);
+font-weight: 400;
+font-size: 24px;
+line-height: 150%;
+color: #fff;
+margin-top: 50px;
+}
+.blok_three{
+  max-width: 1520px;
+  margin-left: 200px;
+}
+.blok_three img{
+  margin-bottom: 100px ;
+  margin-top: 100px;
+}
+.blok_three span{
+  font-family: var(--second-family);
+font-weight: 200;
+font-size: 24px;
+line-height: 150%;
+color: #fff;
+}
+.blok_three h2{
+  font-family: var(--font-family);
+  font-weight: 900;
+  font-size: 40px;
+  line-height: 162%;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #fff;
+  max-width: 1222px;
+  margin-left: 149px;
+  margin-top: 150px;
+}
+
+  .eth_five{
+    margin-left: 198px;
+    margin-top: 200px;
+  }
+  .eth_five h2{
+    font-family: var(--font-family);
+font-weight: 700;
+font-size: 54px;
+line-height: 149%;
+letter-spacing: 0.01em;
+color: #fff;
+margin-bottom: 50px;
+  }
+  .eth_stat img{
+    margin-right: 23px;
+  }
+  .foot{
+    width: 1500px;
+    height: 609px;
+    margin-left: 215px;
+    margin-top: 150px;
+    display: block;
+  }
+  .cocials{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 40px;
+  }
+ 
+  .social_icons{
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+  }
+  .social_icons img{
+    padding: 20px;
+  }
+  .footer_links{
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+    max-width: 1500px;
+    margin-left: auto;
+    margin-right: auto;
+    font-weight: 200;
+
+  }
+  .footer_links a{
+    padding-top: 20px;
+    font-family: var(--font-family);
+font-weight: 500;
+font-size: 20px;
+line-height: 125%;
+letter-spacing: 0.01em;
+color: #fff;
+text-decoration: none;
+
+  }
+  .footer_links h1{
+    font-family: var(--font-family);
+font-weight: 800;
+font-size: 20px;
+line-height: 149%;
+letter-spacing: 0.01em;
+color: #fff;
+margin-bottom: 50px;
+  }
+  .root{
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: space-between;
+    max-width: 1200px;
+    font-size: x-small;
+    margin-top: 100px;
+    
+  }
+  .root a{
+    text-decoration: none;
+    font-family: var(--font-family);
+font-weight: 500;
+font-size: 20px;
+line-height: 125%;
+letter-spacing: 0.01em;
+color: #fff;
+text-decoration: underline;
+text-decoration-skip-ink: none;
+  }
+  .gils_music{
+    width: 170px;
+    margin-bottom: 30px;
+
+  }
+  .gils_music a{
+    padding-bottom: 30px;
+  }
+  .aetherland{
+    width: 273px;
+
+
+  }
+  .gils_store{
+    width: 242px;
+
+
+  }
+  .TRAVELLERS_gils{
+    width: 208px;
+
+  }
+  .logo_main{
+    width: 61px;
+height: 55px;
+  }

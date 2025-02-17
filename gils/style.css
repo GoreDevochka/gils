@@ -21,16 +21,9 @@
   /* трансфер */
   .gils {
     background-image: url(./images/РГ.png);
-    background-size: cover; /* Cover the entire element */
-    background-attachment: fixed; /* Fix the background image */
-    background-position: center; /* Center the background image */
-    position: fixed; /* Fix the position */
-    top: 0; /* Align to the top */
-    left: 0; /* Align to the left */
-    width: 100%; /* Full width */
-    height: 100%; /* Full height */
+    width: 1920px;
+    height: 994px;
     text-align: center;
-    z-index: -1; /* Ensure it stays behind other content */
 }
  
   .logo{
@@ -77,7 +70,7 @@ margin-top: 48px;
   .gils_but_href{
    padding: 18px 126px;
    border-radius: 14px;
-
+   background: rgba(23, 23, 23, 0.9);
 text-decoration: none;
 font-family: var(--font-family);
 font-weight: 700;
@@ -85,20 +78,28 @@ font-size: 20px;
 line-height: 233%;
 letter-spacing: 0.01em;
 color: #fff;
-background: rgba(23, 23, 23, 0.9);
-
   }
-  .gils_cont{
-    width: 497px;
-    margin-top: 28px;
-    margin-left: 711px;
-  }
-
+.gils_but_hrefs{
+  padding: 18px 165px;
+  border-radius: 14px;
+  background: rgba(23, 23, 23, 0.9);
+text-decoration: none;
+font-family: var(--font-family);
+font-weight: 700;
+font-size: 20px;
+line-height: 233%;
+letter-spacing: 0.01em;
+color: #fff;
+}
+.gils_cont{
+  margin-top: 38px;
+}
  /* авторизация */
 
   .auth{
     background-image: url(./images/auth.png);
-    
+    width: 1920px;
+height: 1311px;
     text-align: center;
     background-size: cover; /* Cover the entire element */
     background-attachment: fixed; /* Fix the background image */
@@ -227,7 +228,37 @@ margin-top: 34px;
     letter-spacing: 0.01em;
     color: #fff;
   }
+  .radio{
+    display: flex;
+    margin-bottom: 32px;
+  }
+  .auth_form_radio{
+    border-radius: 100%;
+    stroke-width: 10px;
+    stroke: #fff;
+    margin-right:20px ;
+    margin-top: 10px;
+    width:19px; 
+    height:19px;
+  }
+  .auth_form_label{
+    font-family: var(--second-family);
+font-weight: 400;
+font-size: 20px;
+line-height: 221%;
+letter-spacing: 0.01em;
+color: #fff;
+padding-right: 220px;
+  }
+    .auth_form_labels{
+    font-family: var(--second-family);
+font-weight: 400;
+font-size: 20px;
+line-height: 221%;
+letter-spacing: 0.01em;
+color: #fff;
 
+  }
 /* winter */
 
   .winter{
@@ -400,7 +431,15 @@ text-align: center;
 color: #405767;
 margin-top: 40px;
   }
-
+.right{
+margin-left: 887px;
+margin-right: 50px;
+margin-top: 50px;
+}
+.left{
+margin-top: 20px;
+transform: rotate(-180deg);
+}
   
   #contain{
     box-sizing: border-box;

@@ -13,10 +13,45 @@ https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.css
     <header> 
         <div class="logo"> <img class="logo_main" src="images/Subtract.png"> </div> 
         <nav class="nav">
-            <a class="links" href="">AETHERLAND</a>
-            <a class="links" href="">GILS STORE</a>
-            <a class="links" href="">TRAVELLERS GILS</a>
-            <a class="links" href="">GILS MUSIC</a>  </nav>
+            <li><a class="links" href="">AETHERLAND</a>
+            <ul>
+                <li><a href="">AETHERLAND SUMMER</a></li>
+                <li><a href="">AETHERLAND MYSTIC</a></li>
+                <li><a href="">AETHERLAND WINTER</a></li>
+                <li><a href="">Мой браслет</a></li>
+                <li><a href="">Дополнительная информация</a></li>
+            </ul>
+        </li>
+            <li><a class="links" href="">GILS STORE</a>
+            <ul>
+                <li><a href="">Рекомендации</a></li>
+                <li><a href="">Билеты</a></li>
+                <li><a href="">Предметы оформления GILS</a></li>
+                <li><a href="">Мерч Исполнителей</a></li>
+                <li><a href="">Мерч от GILS</a></li>
+                <li><a href="">Мерч от AETHERLAND</a></li>
+            </ul>
+        </li>
+            <li><a class="links" href="">TRAVELLERS GILS</a>
+            <ul>
+                <li><a href="">NFT</a></li>
+                <li><a href="">Академия GILS</a></li>
+                <li><a href="">Работа в GILS</a></li>
+                <li><a href="">Частые вопросы</a></li>
+            </ul>
+        </li>
+            <li><a class="links" href="">GILS MUSIC</a>
+            <ul>
+                <li><a href="">Новости</a></li>
+                <li><a href="">Веб-плеер</a></li>
+                <li><a href="">Скачать GILS</a></li>
+                <li><a href="">О GILS</a></li>
+                <li><a href="">Прямой эфир</a></li>
+                <li><a href="">ONELINK RADIO</a></li>
+                <li><a href="">GLOBAL MIX</a></li>
+            </ul>
+        </li>
+        </nav>
             <li><a class="my_account" href="./transfer.html">Мой аккаунт</button></a></li>
     </header>
    
@@ -148,5 +183,23 @@ https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.css
 https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js
 "></script>
 <script src="./slider.js"></script>
+
+<script>
+const mainLink = document.querySelector('.nav > ul > li:first-child > a'); // Селектор первой ссылки (AETHERLAND)
+const blurBackground = document.createElement('div');
+blurBackground.classList.add('blurred-background');
+document.body.appendChild(blurBackground);
+
+
+mainLink.addEventListener('mouseover', () => {
+  blurBackground.classList.add('active');
+});
+
+mainLink.addEventListener('mouseout', () => {
+  blurBackground.classList.remove('active');
+});
+
+</script>
+
 </body>
 </html>

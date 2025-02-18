@@ -8,7 +8,6 @@
   --font6: "Colonna MT", sans-serif;
 }
 *{
-  
 font-family: var(--font-family);
 color: white;
 text-decoration: none;

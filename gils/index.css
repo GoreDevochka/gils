@@ -81,9 +81,14 @@ li{
  display: block;
     margin-left: auto;
     margin-right: auto ;
+    border-radius: 30px;
 }
 .main_photo img{
   width: 1550px;
+  border-radius: 30px;
+}
+.main_photo:hover{
+  box-shadow: 0 0 60px rgba(44, 58, 135, 1);
 }
 
 .more{
@@ -110,15 +115,26 @@ li{
   align-items: center;
 }
 .flow_container{
-border-radius: 15px;
-
+border-radius: 30px;
+}
+.flow_container img{
+  border-radius: 30px;
+  }
+.flow_container img:hover{
+  box-shadow: 0 0 60px rgba(44, 58, 135, 1);
 }
 a{
   margin: 0;
 
 }
+
+a:hover{
+  color: rgb(26, 26, 26);
+  transition: color 0.2s ease-in-out;
+}
+
 .second_flow_container{
-border-radius: 15px;
+border-radius: 15px;  
 
 }
 
@@ -229,6 +245,19 @@ font-family: var(--font-family);
   justify-content: left;
 }
 
+.onelink_button{
+  border-radius: 30px;
+}
+.onelink_button img{
+  border-radius: 30px;
+  
+}
+
+.onelink_button img:hover{
+  box-shadow: 0 0 60px rgb(100, 44, 135);
+ 
+}
+
 
 .onelink_btn{
   position: relative;
@@ -251,9 +280,16 @@ h3{
 }
 
 .globalmix_button{
-  background-color: rgba(11, 11, 11, 1);
-
+ margin-left: 40px;
+ border-radius: 30px;
 }
+.globalmix_button img{
+  border-radius: 30px;
+ }
+
+.globalmix_button img:hover{
+  box-shadow: 0 0 60px rgb(83, 64, 22);}
+
 
 .global_text h3{
   background-color:  rgba(11, 11, 11, 1);
@@ -278,18 +314,28 @@ h3{
 }
 .aetherland_pics img{
   margin: 0;
+  border-radius: 30px;
 }
+
+.aetherland_pics img:hover{
+box-shadow: 0 0 60px rgb(71, 61, 42);
+}
+
 .pic1{
 grid-area: A;
+border-radius: 30px;
 }
 .pic2{
   grid-area: B;
+  border-radius: 30px;
 }
 .pic3{
   grid-area: C;
+  border-radius: 30px;
 }
 .pic4{
   grid-area: D;
+  border-radius: 30px;
 }
 .pic5{
   grid-area: E;
@@ -308,6 +354,15 @@ grid-area: A;
   cursor: pointer;
   border-radius: 60px;
 font-family: var(--font-family);
+}
+.unitaria_button{
+  border-radius: 30px;
+}
+.unitaria_button img{
+  border-radius: 30px;
+}
+.unitaria_button img:hover{
+  box-shadow: 0 0 60px rgb(161, 30, 111);
 }
 
 .socials{

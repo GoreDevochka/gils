@@ -185,19 +185,20 @@ https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js
 <script src="./slider.js"></script>
 
 <script>
-const mainLink = document.querySelector('.nav > ul > li:first-child > a'); // Селектор первой ссылки (AETHERLAND)
+const mainLinks = document.querySelectorAll('.nav > ul > li > a'); // Все главные ссылки
 const blurBackground = document.createElement('div');
 blurBackground.classList.add('blurred-background');
 document.body.appendChild(blurBackground);
 
-
-mainLink.addEventListener('mouseover', () => {
-  blurBackground.classList.add('active');
+mainLinks.forEach(link => {
+  link.addEventListener('mouseover', () => {
+    blurBackground.classList.add('active');
+  });
+  link.addEventListener('mouseout', () => {
+    blurBackground.classList.remove('active');
+  });
 });
 
-mainLink.addEventListener('mouseout', () => {
-  blurBackground.classList.remove('active');
-});
 
 </script>
 

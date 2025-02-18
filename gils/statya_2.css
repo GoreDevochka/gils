@@ -80,15 +80,15 @@ header{
     position: relative; 
   }
   
-  .nav ul { /Стили для вложенных списков */
+  .nav ul { 
     position: absolute;
     background-color: white;
     z-index: 10;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    display: none; /Скрываем по умолчанию */
+    display: none;
   }
   
-  .nav li:hover > ul { /Показываем при наведении */
+  .nav li:hover > ul { 
     display: block;
   }
   

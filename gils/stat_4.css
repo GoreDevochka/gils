@@ -43,14 +43,13 @@ letter-spacing: 0.01em;
 color: #fff;
 margin-right: 76px;
 padding-top: 100px;
-
-
   }
   .butt{
     border-radius: 61px;
     padding: 10px 35px ;
-    background: linear-gradient(180deg, #675e4f 0%, #39342c 100%);
-    transform: rotate(90deg);   
+    backdrop-filter: blur(34.5px);
+    background: rgba(150, 150, 150, 0.34);
+    transform: rotate(90deg);  
 text-decoration: none;
 font-family: var(--font-family);
 font-weight: 800;
@@ -97,6 +96,9 @@ line-height: 150%;
 color: #fff;
 margin-top: 85px;
 margin-bottom: 50px;
+  }
+  .st4_blok img{
+    margin-left: 350px;
   }
   .st4_blok span{
     font-family: var(--second-family);
@@ -174,102 +176,4 @@ margin-bottom: 50px;
   .eth_stat img{
     margin-right: 23px;
   }
-  .foot{
-    width: 1500px;
-    height: 609px;
-    margin-left: 215px;
-    margin-top: 150px;
-    display: block;
-  }
-  .cocials{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin-bottom: 40px;
-  }
  
-  .social_icons{
-    display: flex;
-    justify-content: space-between;
-    margin: 0;
-  }
-  .social_icons img{
-    padding: 20px;
-  }
-  .footer_links{
-    display: flex;
-    justify-content: space-between;
-    margin: 0;
-    max-width: 1500px;
-    margin-left: auto;
-    margin-right: auto;
-    font-weight: 200;
-
-  }
-  .footer_links a{
-    padding-top: 20px;
-    font-family: var(--font-family);
-font-weight: 500;
-font-size: 20px;
-line-height: 125%;
-letter-spacing: 0.01em;
-color: #fff;
-text-decoration: none;
-
-  }
-  .footer_links h1{
-    font-family: var(--font-family);
-font-weight: 800;
-font-size: 20px;
-line-height: 149%;
-letter-spacing: 0.01em;
-color: #fff;
-margin-bottom: 50px;
-  }
-  .root{
-    margin-left: auto;
-    margin-right: auto;
-    display: flex;
-    justify-content: space-between;
-    max-width: 1200px;
-    font-size: x-small;
-    margin-top: 100px;
-    
-  }
-  .root a{
-    text-decoration: none;
-    font-family: var(--font-family);
-font-weight: 500;
-font-size: 20px;
-line-height: 125%;
-letter-spacing: 0.01em;
-color: #fff;
-text-decoration: underline;
-text-decoration-skip-ink: none;
-  }
-  .gils_music{
-    width: 170px;
-    margin-bottom: 30px;
-
-  }
-  .gils_music a{
-    padding-bottom: 30px;
-  }
-  .aetherland{
-    width: 273px;
-
-
-  }
-  .gils_store{
-    width: 242px;
-
-
-  }
-  .TRAVELLERS_gils{
-    width: 208px;
-
-  }
-  .logo_main{
-    width: 61px;
-height: 55px;
-  }

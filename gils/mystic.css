@@ -167,12 +167,20 @@ background-image: url(./images/Mask\ group.png);
       color: #fff;
       /* max-width: 1654px; */
     }
+    .blok_color{
+      background: #060604;
+    }
     .blok_three_span{
        max-width: 1654px;
        margin-left: 100px;
        margin-top: 442px;
     }
-
+    .fly{
+      background: #060604;
+      max-width: 1920px;
+      position: relative;
+      top:-450px;
+    }
     .eth_five{
       margin-left: 198px;
       margin-top: 200px;
@@ -213,6 +221,7 @@ background-image: url(./images/Mask\ group.png);
 position: relative;
 top: -250px;
 left: 150px;
+
   }
   .social_icons{
     display: flex;

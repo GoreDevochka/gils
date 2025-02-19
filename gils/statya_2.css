@@ -131,7 +131,7 @@ nav{
 .my_account{
   border-radius: 61px;
     padding: 10px 35px ;
-background: linear-gradient(rgba(54, 69, 140, 1),rgba(88, 32, 141, 1));
+background: linear-gradient(to right, rgba(65, 69, 53, 1),rgba(110, 117, 91, 1)) ;
 text-decoration: none;
 font-family: var(--font-family);
 font-weight: 800;
@@ -281,14 +281,14 @@ footer h1{
 }
 
 .slider .slick-prev {
-  right: 61%;
+  right: 52%;
   bottom: -140px;
   transform: rotate(180deg);
 
 }
 
 .slider .slick-next {
-  right: 36%;
+  right: 43%;
   bottom: -140px;
 }
 

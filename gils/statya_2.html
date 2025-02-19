@@ -10,6 +10,7 @@ https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.css
     <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
 </head>
 <body>
+    
     <header class="header"> 
         <div class="logo"> <img class="logo_main" src="images/Subtract.png"> </div> 
         <nav>
@@ -186,21 +187,8 @@ https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js
 "></script>
 <script src="./slider.js"></script>
 
-<script>
-const links = document.querySelectorAll('.header nav ul li a');
-const mainContent = document.querySelector('main');
-
-links.forEach(link => {
-    link.addEventListener('mouseenter', () => {
-        mainContent.classList.add('blur');
-    });
-
-    link.addEventListener('mouseleave', () => {
-        mainContent.classList.remove('blur');
-    });
-});
-
-</script>
+<script src="./blur_header.js"></script>
 
 </body>
+
 </html>

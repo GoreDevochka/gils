@@ -8,7 +8,7 @@
     --font6: "Colonna MT", sans-serif;
   }
 *{
-  background-color: rgba(6, 6, 6, 1);
+  
 font-family: var(--font-family);
 color: white;
 text-decoration: none;
@@ -17,7 +17,9 @@ text-decoration: none;
   margin-right: auto ;
 
 }
-
+body{
+  background-color: rgba(6, 6, 6, 1);
+}
 button{
   text-decoration: none;
   font-family: var(--font-family);
@@ -37,7 +39,7 @@ button{
 nav{
   display: flex;
 }
-header{
+.header{
   list-style: none;
     display: flex;
     justify-content: space-between;
@@ -47,18 +49,71 @@ header{
   font-family: var(--font-family);
   width: 1650px;
   padding-top: 3%;
+  margin-bottom: 40px;
+  position: relative;
+  z-index: 100;
   }
   .links{
     margin-right: 60px;
     line-height: 149%;
     letter-spacing: 0.01em;
     font-weight: 800;
+    
   }
+
+  main {
+    transition: filter 0.3s ease; /* Плавный переход для размытия */
+}
+.header nav ul {
+  list-style: none;
+  padding: 0;
+}
+
+.header nav ul li {
+  display: inline-block;
+  position: relative; /* Для абсолютного позиционирования выпадающего меню */
+  margin-right: 20px;
+  background: transparent;
+}
+
+.header nav ul li a {
+  color: white;
+  text-decoration: none;
+ 
+}
+
+.header nav ul li a:hover {
+  color:rgb(135, 136, 199) ;
+}
+
+.dropdown {
+  display: none; /* Скрываем выпадающее меню по умолчанию */
+  position: absolute; /* Абсолютное позиционирование */
+  background-color: transparent; /* Цвет фона выпадающего меню */
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.dropdown li {
+  display: block; /* Отображаем элементы в столбик */
+}
+
+.dropdown li a {
+  padding-top: 15px;
+}
+
+.header nav ul li:hover .dropdown {
+  display: block; /* Показываем выпадающее меню при наведении на родительский элемент */
+}
+
+.blur {
+  filter: blur(35px);
+}
 
 .my_account{
   border-radius: 61px;
     padding: 10px 35px ;
-background: linear-gradient(rgba(54, 69, 140, 1),rgba(88, 32, 141, 1));
+background: linear-gradient(to right, rgba(54, 69, 140, 1),rgba(88, 32, 141, 1));
 text-decoration: none;
 font-family: var(--font-family);
 font-weight: 800;
@@ -81,9 +136,14 @@ li{
  display: block;
     margin-left: auto;
     margin-right: auto ;
+    border-radius: 30px;
 }
 .main_photo img{
   width: 1550px;
+  border-radius: 30px;
+}
+.main_photo:hover{
+  box-shadow: 0 0 60px rgba(44, 58, 135, 1);
 }
 
 .more{
@@ -110,15 +170,26 @@ li{
   align-items: center;
 }
 .flow_container{
-border-radius: 15px;
-
+border-radius: 30px;
+}
+.flow_container img{
+  border-radius: 30px;
+  }
+.flow_container img:hover{
+  box-shadow: 0 0 60px rgba(44, 58, 135, 1);
 }
 a{
   margin: 0;
 
 }
+
+a:hover{
+  color: rgb(26, 26, 26);
+  transition: color 0.2s ease-in-out;
+}
+
 .second_flow_container{
-border-radius: 15px;
+border-radius: 15px;  
 
 }
 
@@ -134,7 +205,7 @@ margin-top: 40px;
 margin-bottom: 40px;
 }
 .text_b{
-  background: linear-gradient(180deg, #080050 0%, #0d00c1 100%);
+  background: linear-gradient(to right, #080050 0%, #0d00c1 100%);
   border-radius: 60px;
   font-size: 16pt;
   border: none;
@@ -150,7 +221,7 @@ margin-bottom: 40px;
   color: #fff;
 }
 .text_butt{
-  background: linear-gradient(180deg, #00503d 0%, #00c18b 100%);
+  background: linear-gradient(to right, #00503d 0%, #00c18b 100%);
   border-radius: 60px;
   font-size: 16pt;
   border: none;
@@ -229,6 +300,19 @@ font-family: var(--font-family);
   justify-content: left;
 }
 
+.onelink_button{
+  border-radius: 30px;
+}
+.onelink_button img{
+  border-radius: 30px;
+  
+}
+
+.onelink_button img:hover{
+  box-shadow: 0 0 60px rgb(100, 44, 135);
+ 
+}
+
 
 .onelink_btn{
   position: relative;
@@ -251,9 +335,16 @@ h3{
 }
 
 .globalmix_button{
-  background-color: rgba(11, 11, 11, 1);
-
+ margin-left: 40px;
+ border-radius: 30px;
 }
+.globalmix_button img{
+  border-radius: 30px;
+ }
+
+.globalmix_button img:hover{
+  box-shadow: 0 0 60px rgb(83, 64, 22);}
+
 
 .global_text h3{
   background-color:  rgba(11, 11, 11, 1);
@@ -278,18 +369,28 @@ h3{
 }
 .aetherland_pics img{
   margin: 0;
+  border-radius: 30px;
 }
+
+.aetherland_pics img:hover{
+box-shadow: 0 0 60px rgb(71, 61, 42);
+}
+
 .pic1{
 grid-area: A;
+border-radius: 30px;
 }
 .pic2{
   grid-area: B;
+  border-radius: 30px;
 }
 .pic3{
   grid-area: C;
+  border-radius: 30px;
 }
 .pic4{
   grid-area: D;
+  border-radius: 30px;
 }
 .pic5{
   grid-area: E;
@@ -308,6 +409,15 @@ grid-area: A;
   cursor: pointer;
   border-radius: 60px;
 font-family: var(--font-family);
+}
+.unitaria_button{
+  border-radius: 30px;
+}
+.unitaria_button img{
+  border-radius: 30px;
+}
+.unitaria_button img:hover{
+  box-shadow: 0 0 60px rgb(161, 30, 111);
 }
 
 .socials{

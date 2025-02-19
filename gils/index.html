@@ -10,13 +10,50 @@ https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.css
     <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
 </head>
 <body>
-    <header> 
+    <header class="header"> 
         <div class="logo"> <img class="logo_main" src="images/Subtract.png"> </div> 
-        <nav class="nav">
-            <a class="links" href="">AETHERLAND</a>
-            <a class="links" href="">GILS STORE</a>
-            <a class="links" href="">TRAVELLERS GILS</a>
-            <a class="links" href="">GILS MUSIC</a>  </nav>
+        <nav>
+            <ul>
+            <li><a class="links" href="">AETHERLAND</a>
+            <ul class="dropdown">
+                <li><a href="">AETHERLAND SUMMER</a></li>
+                <li><a href="">AETHERLAND MYSTIC</a></li>
+                <li><a href="">AETHERLAND WINTER</a></li>
+                <li><a href="">Мой браслет</a></li>
+                <li><a href="">Дополнительная информация</a></li>
+            </ul>
+        </li>
+            <li><a class="links" href="">GILS STORE</a>
+            <ul class="dropdown">
+                <li><a href="">Рекомендации</a></li>
+                <li><a href="">Билеты</a></li>
+                <li><a href="">Предметы оформления GILS</a></li>
+                <li><a href="">Мерч Исполнителей</a></li>
+                <li><a href="">Мерч от GILS</a></li>
+                <li><a href="">Мерч от AETHERLAND</a></li>
+            </ul>
+        </li>
+            <li><a class="links" href="">TRAVELLERS GILS</a>
+            <ul class="dropdown">
+                <li><a href="">NFT</a></li>
+                <li><a href="">Академия GILS</a></li>
+                <li><a href="">Работа в GILS</a></li>
+                <li><a href="">Частые вопросы</a></li>
+            </ul>
+        </li>
+            <li><a class="links" href="">GILS MUSIC</a>
+            <ul class="dropdown">
+                <li><a href="">Новости</a></li>
+                <li><a href="">Веб-плеер</a></li>
+                <li><a href="">Скачать GILS</a></li>
+                <li><a href="">О GILS</a></li>
+                <li><a href="">Прямой эфир</a></li>
+                <li><a href="">ONELINK RADIO</a></li>
+                <li><a href="">GLOBAL MIX</a></li>
+            </ul>
+        </li>
+    </ul>
+        </nav>
             <li><a class="my_account" href="./transfer.html">Мой аккаунт</button></a></li>
     </header>
     <main>
@@ -78,7 +115,7 @@ https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.css
 <div class="unitaria"> 
     <div class="text">
         <h1>UNITARIA</h1>
-        <a class="text_buttt" href="" style="background: linear-gradient(rgba(157, 0, 76, 1), rgba(223, 0, 141, 1));">Посетить UNITARIA 🡽</a>
+        <a class="text_buttt" href="" style="background: linear-gradient(to right,rgba(157, 0, 76, 1), rgba(223, 0, 141, 1));">Посетить UNITARIA 🡽</a>
         </div>
         <div class="unitaria_elements">
         <a href="" class="unitaria_button">
@@ -149,6 +186,9 @@ https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.css
     https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js
     "></script>
 <script src="./slider.js"></script>
+
+<script src="./blur_header.js"></script>
+    
 </body>
 
 </html>
